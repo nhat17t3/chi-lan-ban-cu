@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <title>Big store a Ecommerce Online Shopping Category Flat </title>
+
+  <!-- Google Web Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+  <!-- Libraries Stylesheet -->
+  <link href="%PUBLIC_URL%/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+  <!-- Customized Bootstrap Stylesheet -->
+  <link href="%PUBLIC_URL%/css/style.css" rel="stylesheet">
+
+  
+  <!--- start-rate---->
+  <script src="https://www.paypal.com/sdk/js?client-id=ATmb7YkNY1kCHTHRNJPBsp4he_Yo1VwyZw_DKFRaE1E8777ScySKccAK4mBcIP2jic7KHTi45ftY3Qhs&currency=CAD"></script>
+  <!-- AQQCpykLWywpS4M6rKuDKvF9LRaKm4pHeBWWnLIFHZ9z9l6Igew16BeUgUi-h4d1ZnmtcfpQo2j8PlCL` -->
+ 
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <!-- Messenger Plugin chat Code -->
+  <div id="fb-root"></div>
+
+  <!-- Your Plugin chat code -->
+  <div id="fb-customer-chat" class="fb-customerchat">
+  </div>
+
+  <script>
+    var chatbox = document.getElementById('fb-customer-chat');
+    chatbox.setAttribute("page_id", "104526048140046");
+    chatbox.setAttribute("attribution", "biz_inbox");
+
+    window.fbAsyncInit = function() {
+      FB.init({
+        xfbml            : true,
+        version          : 'v11.0'
+      });
+    };
+
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+  <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+
+     <!-- Back to Top -->
+     <a href="#" class="btn btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+     <!-- JavaScript Libraries -->
+     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+     <script src="%PUBLIC_URL%/lib/easing/easing.min.js"></script>
+     <script src="%PUBLIC_URL%/lib/owlcarousel/owl.carousel.min.js"></script>
+ 
+     <!-- Contact Javascript File
+     <script src="mail/jqBootstrapValidation.min.js"></script>
+     <script src="mail/contact.js"></script> -->
+ 
+     <!-- Template Javascript -->
+     <script src="%PUBLIC_URL%/js/main.js"></script>
+</body>
+
+</html>
